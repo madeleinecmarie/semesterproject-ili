@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skincares",
+      "handler": "skincare.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skincares/count",
+      "handler": "skincare.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skincares/:id",
+      "handler": "skincare.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skincares",
+      "handler": "skincare.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skincares/:id",
+      "handler": "skincare.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skincares/:id",
+      "handler": "skincare.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

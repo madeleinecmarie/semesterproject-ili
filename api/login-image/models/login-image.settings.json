@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "login_images",
+  "info": {
+    "name": "Login image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "signin": {
+      "type": "string"
+    }
+  }
+}

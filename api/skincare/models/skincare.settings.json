@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skincares",
+  "info": {
+    "name": "skincare",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": false
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "string"
+    }
+  }
+}
